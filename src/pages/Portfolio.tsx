@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { ExternalLink, Code, TrendingUp } from 'lucide-react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -153,13 +154,13 @@ const Portfolio = () => {
           <p className="text-muted-foreground mb-8">
             Let's discuss how we can help you achieve similar results
           </p>
-          <a
-            href="/contact"
+          <Link
+            to="/contact"
             className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-primary to-secondary rounded-full text-foreground font-semibold hover-lift transition-all duration-300"
           >
             Start Your Project
             <ExternalLink className="w-5 h-5" />
-          </a>
+          </Link>
         </div>
       </div>
     </div>
