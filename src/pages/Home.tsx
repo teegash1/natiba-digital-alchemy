@@ -37,10 +37,10 @@ const Home = () => {
   ];
 
   const stats = [
-    { number: '500+', label: 'Projects Completed', delay: 0 },
-    { number: '98%', label: 'Client Satisfaction', delay: 100 },
-    { number: '50+', label: 'Team Members', delay: 200 },
-    { number: '24/7', label: 'Support Available', delay: 300 },
+    { number: '50+', label: 'Projects Delivered', delay: 0 },
+    { number: '1000+', label: 'People Impacted', delay: 100 },
+    { number: '8', label: 'Team Members', delay: 200 },
+    { number: '5', label: 'Years in Business', delay: 300 },
   ];
 
   const features = [

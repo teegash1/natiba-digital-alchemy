@@ -1,0 +1,15 @@
+{
+  "name": "Natiba Solutions",
+  "short_name": "Natiba",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b1620",
+  "theme_color": "#0b1620",
+  "icons": [
+    {
+      "src": "/favnatiba.jpeg",
+      "sizes": "443x443",
+      "type": "image/jpeg"
+    }
+  ]
+}

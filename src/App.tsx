@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Navigation } from "@/components/Navigation";
 import { MouseEffect } from "@/components/MouseEffect";
 import { CustomCursor } from "@/components/CustomCursor";
+import { ScrollToTop } from "@/components/ScrollToTop";
 import { Footer } from "@/components/Footer";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
@@ -23,6 +24,7 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <div className="relative min-h-screen cursor-none">
+          <ScrollToTop />
           <CustomCursor />
           <MouseEffect />
           <Navigation />

@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import { Github, Linkedin, Twitter, Mail } from 'lucide-react';
-import logo from '@/assets/natiba-logo.png';
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -39,8 +38,9 @@ export const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-12 mb-12">
           {/* Brand Column */}
           <div className="lg:col-span-2">
-            <Link to="/" className="inline-block mb-4">
-              <img src={logo} alt="Natiba Solutions" className="h-10" />
+            <Link to="/" className="inline-flex items-center gap-3 mb-4">
+              <img src="/favnatiba.jpeg" alt="Natiba Solutions logo" className="h-12 md:h-14 w-auto object-contain rounded-md shadow-sm ring-1 ring-white/10" />
+              <span className="font-semibold tracking-wide text-foreground/90">Natiba Solutions</span>
             </Link>
             <p className="text-muted-foreground mb-6 leading-relaxed">
               Transforming businesses through innovative technology solutions. 

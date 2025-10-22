@@ -32,10 +32,10 @@ const About = () => {
   ];
 
   const achievements = [
-    { icon: <Users />, number: '200+', label: 'Enterprise Clients' },
-    { icon: <TrendingUp />, number: '15+', label: 'Years Experience' },
-    { icon: <Award />, number: '50+', label: 'Industry Awards' },
-    { icon: <Target />, number: '1M+', label: 'Users Impacted' },
+    { icon: <Target />, number: '50+', label: 'Projects Delivered' },
+    { icon: <TrendingUp />, number: '5', label: 'Years in Business' },
+    { icon: <Users />, number: '1000+', label: 'People Impacted' },
+    { icon: <Award />, number: '8', label: 'Team Members' },
   ];
 
   return (
@@ -146,10 +146,10 @@ const About = () => {
             <h2 className="text-3xl font-bold mb-6 text-center">Our Story</h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Founded over 15 years ago, Natiba Solutions emerged from a simple belief: technology 
-                should be a catalyst for business transformation, not a complexity to manage. What started 
-                as a small team of passionate developers has grown into a full-service technology partner 
-                trusted by enterprises worldwide.
+                Founded 5 years ago, Natiba Solutions emerged from a simple belief: technology should be a 
+                catalyst for business transformation, not a complexity to manage. What started as a small 
+                team of passionate developers has grown into a dedicated group of 8 experts partnering with 
+                organizations to deliver measurable results.
               </p>
               <p>
                 Today, we're proud to serve clients across industries including healthcare, finance, 

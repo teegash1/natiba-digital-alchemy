@@ -59,13 +59,13 @@ const Contact = () => {
     {
       icon: <Phone className="w-6 h-6" />,
       title: 'Phone',
-      content: '+1 (555) 123-4567',
-      link: 'tel:+15551234567',
+      content: '+254 700 009 374',
+      link: 'tel:+254700009374',
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       title: 'Location',
-      content: 'Silicon Valley, CA, USA',
+      content: 'Jalaram Courtyard, Westlands, Nairobi, Kenya',
       link: null,
     },
   ];
@@ -122,12 +122,12 @@ const Contact = () => {
               <h3 className="text-2xl font-bold mb-6">Why Choose Natiba Solutions?</h3>
               <ul className="space-y-4">
                 {[
-                  'Proven track record with 500+ successful projects',
-                  'Expert team with 15+ years of combined experience',
+                  'Proven track record with 50+ delivered projects',
+                  '5 years in business, trusted by clients',
+                  'Team of 8 experts across engineering and design',
+                  '1000+ people impacted by our solutions',
                   'Cutting-edge technology and best practices',
-                  '24/7 support and maintenance',
-                  'Transparent pricing and timelines',
-                  'Agile development methodology',
+                  'Transparent pricing, timelines, and agile delivery',
                 ].map((item, index) => (
                   <li key={index} className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
@@ -202,7 +202,7 @@ const Contact = () => {
                     value={formData.phone}
                     onChange={handleChange}
                     className="w-full px-4 py-3 bg-background border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary transition-all"
-                    placeholder="+1 (555) 123-4567"
+                    placeholder="+254 700 009 374"
                   />
                 </div>
 

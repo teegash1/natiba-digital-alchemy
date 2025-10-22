@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
-import logo from '@/assets/natiba-logo.png';
 
 export const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -32,12 +31,15 @@ export const Navigation = () => {
       }`}
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
-        <Link to="/" className="flex items-center space-x-3 group">
-          <img 
-            src={logo} 
-            alt="Natiba Solutions" 
-            className="h-10 transition-transform duration-300 group-hover:scale-110" 
+        <Link to="/" className="flex items-center gap-3 group">
+          <img
+            src="/favnatiba.jpeg"
+            alt="Natiba Solutions logo"
+            className="h-10 md:h-12 w-auto object-contain rounded-md shadow-sm ring-1 ring-white/10 transition-transform duration-300 group-hover:scale-110"
           />
+          <span className="font-semibold tracking-wide text-foreground/90 group-hover:text-foreground transition-colors">
+            Natiba Solutions
+          </span>
         </Link>
 
         {/* Desktop Navigation */}
