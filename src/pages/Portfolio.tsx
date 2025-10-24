@@ -15,44 +15,22 @@ const Portfolio = () => {
 
   const projects = [
     {
-      title: 'HealthCare Management Platform',
+      title: 'Pharmacy Chain Management Platform',
       category: 'Healthcare • Web Application',
-      description: 'Comprehensive patient management system with AI-powered diagnosis assistance, electronic health records, and telemedicine capabilities.',
+      description:
+        'Comprehensive management system that uses electronic health records to securely track customer medication histories, prescriptions, and wellness program details, supporting convenient access to medications and health products.',
       technologies: ['React', 'Node.js', 'MongoDB', 'TensorFlow', 'WebRTC'],
-      results: ['85% reduction in administrative time', '300+ hospitals using platform', '99.9% uptime achieved'],
+      results: ['85% reduction in administrative time', '100+ using platform', '99.9% uptime achieved'],
       gradient: 'from-blue-500 to-cyan-500',
     },
     {
       title: 'Smart Inventory System',
       category: 'Retail • ERP Solution',
-      description: 'AI-driven inventory management with predictive analytics, automated reordering, and real-time tracking across multiple warehouses.',
+      description:
+        'Comprehensive inventory management system with predictive analytics, automated reordering, and real-time tracking across multiple warehouses.',
       technologies: ['Angular', 'Python', 'PostgreSQL', 'Redis', 'Docker'],
-      results: ['40% reduction in stock waste', '60% faster order processing', '$2M+ annual cost savings'],
+      results: ['40% reduction in stock waste', '60% faster order processing', '10%+ annual cost savings'],
       gradient: 'from-purple-500 to-pink-500',
-    },
-    {
-      title: 'Financial Analytics Dashboard',
-      category: 'FinTech • Data Analytics',
-      description: 'Real-time financial analytics platform with machine learning for fraud detection and investment recommendations.',
-      technologies: ['Vue.js', 'FastAPI', 'TimescaleDB', 'Apache Kafka', 'Kubernetes'],
-      results: ['95% fraud detection accuracy', '10M+ transactions processed daily', 'ISO 27001 certified'],
-      gradient: 'from-green-500 to-teal-500',
-    },
-    {
-      title: 'Manufacturing IoT Solution',
-      category: 'Manufacturing • IoT',
-      description: 'Industrial IoT platform connecting factory equipment with predictive maintenance and production optimization.',
-      technologies: ['React Native', 'AWS IoT', 'InfluxDB', 'TensorFlow', 'MQTT'],
-      results: ['35% increase in productivity', '50% reduction in downtime', '1000+ devices connected'],
-      gradient: 'from-orange-500 to-red-500',
-    },
-    {
-      title: 'E-Learning Platform',
-      category: 'Education • Mobile App',
-      description: 'Interactive learning platform with AI tutoring, video conferencing, and personalized learning paths.',
-      technologies: ['React', 'Flutter', 'Firebase', 'OpenAI', 'WebRTC'],
-      results: ['500K+ active students', '95% satisfaction rate', '20+ countries served'],
-      gradient: 'from-indigo-500 to-purple-500',
     },
     {
       title: 'Supply Chain Optimizer',
@@ -89,19 +67,6 @@ const Portfolio = () => {
       gradient: 'from-emerald-500 to-teal-600',
     },
     {
-      title: 'Safari & Adventure Booking Platform',
-      category: 'Travel • Web Application',
-      description:
-        'Luxury and bespoke safari booking platform offering curated packages across East Africa with cultural experiences and park circuits.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Cloudinary', 'Google Maps'],
-      results: [
-        'Packaged signature safari circuits',
-        'Partnerships with operators and regulators',
-        'Increase in booked multi‑park itineraries'
-      ],
-      gradient: 'from-amber-500 to-orange-600',
-    },
-    {
       title: 'Online Music Instrument Store',
       category: 'E‑commerce • Web Application',
       description:
@@ -113,18 +78,6 @@ const Portfolio = () => {
         'Improved conversion with high‑quality product pages'
       ],
       gradient: 'from-violet-500 to-purple-600',
-    },
-    {
-      title: 'Home‑Cooked Food & Recipe Marketplace',
-      category: 'Food • Web Application',
-      description:
-        'Local chef portfolio and takeaway ordering site highlighting menus, recipes, and booking for private catering.',
-      technologies: ['React', 'Netlify', 'Firebase', 'Stripe', 'A11y'],
-      results: [
-        'Increased local orders via clear menu presentation',
-        'Simplified ordering flow for repeat customers'
-      ],
-      gradient: 'from-rose-500 to-pink-600',
     },
     {
       title: 'Digital Rental and Tenant Management',
