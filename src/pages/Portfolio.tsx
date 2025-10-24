@@ -62,6 +62,83 @@ const Portfolio = () => {
       results: ['30% cost reduction', '45% faster deliveries', '98% on-time delivery rate'],
       gradient: 'from-yellow-500 to-orange-500',
     },
+    {
+      title: 'Digital Certification Platform',
+      category: 'Education • Web Application',
+      description:
+        'Platform for issuing, managing, and verifying verifiable digital training certificates for partner organizations and training providers.',
+      technologies: ['Next.js', 'Node.js', 'MongoDB', 'JWT', 'OpenBadges', 'JSON-LD'],
+      results: [
+        'Integrated with multiple partner institutions',
+        'Simplified certificate verification and issuance',
+        'Reduced manual verification time by ~75%'
+      ],
+      gradient: 'from-sky-500 to-blue-600',
+    },
+    {
+      title: 'E‑Learning Portal',
+      category: 'Education • LMS Web Application',
+      description:
+        'Online learning portal for courses in business, leadership, IT, and digital skills offering flexible, self‑paced study and institutional onboarding.',
+      technologies: ['React', 'Node.js', 'MySQL', 'SCORM', 'AWS S3'],
+      results: [
+        'Centralized course library for multiple institutions',
+        'Streamlined learner enrollment and password recovery',
+        'Increased course completion via modular paths'
+      ],
+      gradient: 'from-emerald-500 to-teal-600',
+    },
+    {
+      title: 'Safari & Adventure Booking Platform',
+      category: 'Travel • Web Application',
+      description:
+        'Luxury and bespoke safari booking platform offering curated packages across East Africa with cultural experiences and park circuits.',
+      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Cloudinary', 'Google Maps'],
+      results: [
+        'Packaged signature safari circuits',
+        'Partnerships with operators and regulators',
+        'Increase in booked multi‑park itineraries'
+      ],
+      gradient: 'from-amber-500 to-orange-600',
+    },
+    {
+      title: 'Online Music Instrument Store',
+      category: 'E‑commerce • Web Application',
+      description:
+        'Boutique online store showcasing acoustic and digital pianos, lessons booking, and custom instrument services.',
+      technologies: ['Next.js', 'Node.js', 'Stripe', 'Algolia', 'Custom Backend'],
+      results: [
+        'Curated product catalog',
+        'Added lesson booking feature',
+        'Improved conversion with high‑quality product pages'
+      ],
+      gradient: 'from-violet-500 to-purple-600',
+    },
+    {
+      title: 'Home‑Cooked Food & Recipe Marketplace',
+      category: 'Food • Web Application',
+      description:
+        'Local chef portfolio and takeaway ordering site highlighting menus, recipes, and booking for private catering.',
+      technologies: ['React', 'Netlify', 'Firebase', 'Stripe', 'A11y'],
+      results: [
+        'Increased local orders via clear menu presentation',
+        'Simplified ordering flow for repeat customers'
+      ],
+      gradient: 'from-rose-500 to-pink-600',
+    },
+    {
+      title: 'Digital Rental and Tenant Management',
+      category: 'Management Platform',
+      description:
+        'Modern property management solution for listings, digital rent payments, and tenant communications focused on efficiency and transparency.',
+      technologies: ['React/Next.js', 'Node.js', 'FastAPI', 'Daraja API', 'n8n AI'],
+      results: [
+        '30+ rental properties managed on platform',
+        '98% rent collection success rate digitally',
+        '90% reduction in paperwork for landlords'
+      ],
+      gradient: 'from-slate-500 to-zinc-600',
+    },
   ];
 
   return (
