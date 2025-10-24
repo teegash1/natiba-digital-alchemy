@@ -18,7 +18,7 @@ const Portfolio = () => {
       title: 'Pharmacy Chain Management Platform',
       category: 'Healthcare • Web Application',
       description:
-        'Comprehensive management system that uses electronic health records to securely track customer medication histories, prescriptions, and wellness program details, supporting convenient access to medications and health products.',
+        'Efficient management system which uses electronic health records to securely track medication histories, prescriptions, and wellness details, enabling convenient access to pharmacy products.',
       technologies: ['React', 'Node.js', 'MongoDB', 'TensorFlow', 'WebRTC'],
       results: ['85% reduction in administrative time', '100+ using platform', '99.9% uptime achieved'],
       gradient: 'from-blue-500 to-cyan-500',
