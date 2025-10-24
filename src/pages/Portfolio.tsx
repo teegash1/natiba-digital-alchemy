@@ -81,7 +81,7 @@ const Portfolio = () => {
     },
     {
       title: 'Digital Rental and Tenant Management',
-      category: 'Management Platform',
+      category: 'Real-Estate • Management Platform',
       description:
         'Modern property management solution for listings, digital rent payments, and tenant communications focused on efficiency and transparency.',
       technologies: ['React/Next.js', 'Node.js', 'FastAPI', 'Daraja API', 'n8n AI'],
@@ -113,7 +113,11 @@ const Portfolio = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="glass rounded-2xl overflow-hidden hover-lift group"
+              className={`glass rounded-2xl overflow-hidden hover-lift group ${
+                project.title === 'Digital Rental and Tenant Management'
+                  ? 'md:col-span-2 md:max-w-2xl md:mx-auto'
+                  : ''
+              }`}
               data-aos="fade-up"
               data-aos-delay={index * 100}
             >
