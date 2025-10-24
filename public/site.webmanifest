@@ -7,9 +7,16 @@
   "theme_color": "#0b1620",
   "icons": [
     {
-      "src": "/favnatiba.jpeg",
-      "sizes": "443x443",
-      "type": "image/jpeg"
+      "src": "/logofrw.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logofrw.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
     }
   ]
 }
